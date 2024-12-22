@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Host Grotesk', sans-serif;
+}
+
+body, html {
+   background-color: #AAAAAA;
+}
+
+/* Div Containe Main */
+.containerMain {
+   align-items: center;
+   justify-content: center;
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 0 20px;
+   width: 100%;
+   text-align: center;
+}
+/* End of Div Containe Main */
+
+/* Title Header */
+header {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+   text-align: center;
+}
+header h1 {
+   color: #663399;
+   font-size: 45px;
+   margin-top: 10px;
+   padding: 20px;
+   text-shadow: 2.5px 2.5px 2.5px #cca2f5;
+}
+
+header img {
+   margin-top: 10px;
+   width: 90px;
+}
+/* End of Title Header */
+
+/* Form Phone Book */
+
+.divForm {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   margin-top: -20px;
+   text-align: center;
+   width: 100%;
+}
+
+.divForm form {
+   align-items: center;
+   justify-content: center;
+   margin: 10px auto;
+   /* max-width: 600px; */
+   text-align: center;
+   width: 60%;
+}
+
+.divForm fieldset {
+   background-color: #999999;
+   border: 3px solid #555555;
+   border-color: #660099;
+   border-radius: 10px;
+   height: 470px;
+   text-align: center;
+}
+.divForm legend {
+   color: #663399;
+   font-size: 35px;
+   font-weight: bold;
+   letter-spacing: 1.5px;
+   margin-bottom: -30px;
+   padding: 15px;
+   text-shadow: 2.5px 2.5px 2.5px #cca2f5;
+}
+
+.divForm label {
+   color: #663399;
+   display: block;
+   font-size: 23px;
+   font-weight: bold;
+   letter-spacing: 1.5px;
+   margin-bottom: -5px;
+   margin-top: 30px;
+   padding: 8px;
+   text-shadow: 2.5px 2.5px 2.5px #cca2f5;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=tel] {
+   background-color: #7e8697;
+   border: 2px solid #660099;
+   border-radius: 10px;
+   height: 50px;
+   margin: -5px;
+   margin-bottom: -20px;
+   padding: 5px;
+   width: 80%;
+}
+
+form input::placeholder {
+   color: #222222;
+   font-size: 17px;
+   font-weight: bold;
+   margin-left: 0px;
+}
+
+form button {
+   background-color: #9999FF;
+   border: 2px solid #660099;
+   border-radius: 10px;
+   color: #111111;
+   font-size: 24px;
+   font-weight: 800;
+   height: 50px;
+   letter-spacing: 2px;
+   margin-top: 50px;
+   padding: 3px;
+   text-shadow: 1.5px 1.5px 1.5px #222222;
+   width: 80%;
+}
+
+form button:hover {
+   background-color: #9933FF;
+   cursor: pointer;
+   text-decoration: underline;
+}
+/* End of Form Phone Book */
+
+table {
+   align-items: center;
+   padding: 35px;
+   justify-content: center;
+   margin-left: 80px;
+   text-align: center;
+   width: 80%;
+}
+
+table th {
+   align-items: center;
+   border-bottom: 3px solid #111111;
+   font-size: 23px;
+   font-weight: bold;
+   padding: 12px;
+   width: 50%;
+}
+
+table td {
+   align-items: center;
+   border-bottom: 2px solid rgba(2, 2, 2, 0.3);
+   font-size: 18px;
+   font-weight: 600;
+   justify-content: center;
+   padding: 12px 0;
+   text-align: center;
+   width: 30%;
+}
+
+table tbody {
+   padding: 20px;
+}
+
+.divFooter {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 25px;
+}
+
+.divFooter p {
+   color: #222222;
+   font-size: 16px;
+   font-weight: 500;
+   margin-top: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
